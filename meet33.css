@@ -1,0 +1,273 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.navigation-bar {
+    background-color: white;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    z-index: 99;
+    font-weight: 600;
+}
+
+.nav-wrapper {
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.link ul{
+    display: flex;
+    gap: 48px;
+    font-size: 20px;
+}
+
+.logo i {
+    color: rgb(0, 163, 14);
+    font-size:50px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.banner {
+    background-image: url(hololive-error.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.banner .container {
+    color: rgb(255, 248, 248);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+}
+
+.banner-wrapper {
+    background-color: rgba(218, 181, 18, 0.103);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.banner p {
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+
+.banner a {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+
+.product {
+    color: rgb(0, 0, 0);
+    margin-top: 72px;
+}
+
+.product .title {
+    text-align: center;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    margin-top: 36px;
+}
+
+.product-content .content {
+    display: grid;
+    place-items: center;
+}
+
+.product h1 {
+    text-align: center;
+}
+
+.product p {
+    text-align: center;
+    color: black;
+}
+
+.product i {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.about-wrapper {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    
+}
+
+.about {
+    margin: 100px 0;
+    background-color:  rgba(0, 163, 14, 0.562);
+}
+
+.about h1 {
+    color: rgb(0, 0, 0);
+}
+
+.about-wrapper img {
+    width: 100%;
+    border-radius: 7px;
+    margin-left: 30px;
+}
+
+.testi .testi-content {
+    align-items: center;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    gap:  24px;
+}
+
+.testi {
+    margin: 100px 0;
+}
+
+.testi .container {
+    position: relative;
+}
+
+.testi img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.testi i {
+    position: absolute;
+    font-size: 100px;
+    cursor: pointer;
+    top: -50%;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.bx-chevron-left {
+    left: 0;
+}
+
+.bx-chevron-right {
+    right: 0;
+}
+
+.testi h3 {
+    color: rgb(0, 0, 0);
+}
+
+.email {
+    background-color: rgb(0, 163, 14);
+    padding: 56px;
+}
+
+input {
+    width: 500px;
+    padding: 12px 0;
+    border-radius: 7px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.email a {
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 7px;
+}
+
+.email-wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    color: rgba(51, 51, 51);
+    margin: 150px 0;
+}
+
+.contact .box-left {
+    width: 20%;
+}
+
+.contact .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact h1 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact a {
+    color: rgba(51, 51, 51);
+    font-weight: normal;
+}
+
+.contact a:hover {
+    color: rgba(0, 202, 78);
+}
+
+.contact .social {
+    padding-top: 10px;
+    font-size: 36px;
+}
+
+footer {
+    background-color: rgba(0, 163, 14, 0.473);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
