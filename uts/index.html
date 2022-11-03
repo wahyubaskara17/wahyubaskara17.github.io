@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Covid-19_UTS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Data Covid-19</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div class="main">
+        <div class="container">
+            <div class="row main align-items-center">
+                <div class="col-6">
+                    <img src="universitas-universitas-yang-terlibat-penanganan-covid-19-dari-ui-hingga-unair-2Lm80lOiR7.jpg" alt="" class="img-fluid" />
+                  </div>
+                <div class="col-6">
+                  <h1 class="header">
+                    Gimana Covid-19 di Indonesia Hari ini ?
+                  </h1>
+                  <p class="sub-header mt-3">
+                    Realtime Update Kasus Corona di indonesia hari ini
+                  </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="data">
+        <div class="container">
+          <div class="bg-data">
+            <div class="row text-center mb-4">
+              <h1 class="fw-bold">Kabar Corona di Indonesia</h1>
+            </div>
+            <div class="row gap-3">
+              <div class="col p-4 rounded-4">
+                <div class="box text-center bg-white py-5 rounded-4" id="data-infected">
+                  <h2 class="text-primary">Terinfeksi</h2>
+                  <h1 id="infected" class="text-primary"></h1>
+                </div>
+              </div>
+              <div class="col p-4 rounded-4">
+                <div class="box text-center bg-white rounded-4 py-5 text-success" id="data-recovered">
+                  <h2 class="text-success">Sembuh</h2>
+                  <h1 id="recovered" class="text-success"></h1>
+                </div>
+              </div>
+              <div class="col p-4 rounded-4">
+                <div class="box text-center text-danger bg-danger py-5 rounded-4" id="data-fatal">
+                  <h2 class="text-white">Meninggal</h2>
+                  <h1 id="fatal" class="text-white"></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center text-white">
+        <p>Inget aja Jaga Kondisi &copy; Wahyu Baskara</p>
+      </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+:root {
+    --dark-red: #00786e;
+    --red: #12c1c1;
+    --white: #fdf0d5;
+    --blue: #003049;
+    --light-blue: #669bbc;
+  }
+  * {
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s;
+  }
+  .main {
+    height: 100vh;
+  }
+  .main .header {
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--red);
+  }
+  .main .sub-header {
+    font-size: 16px;
+    color:#003049;
+  }
+  
+  .data .box h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .data .box h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .data {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .data-name {
+    color: rgb(130, 255, 217);
+  }
+  
+  footer {
+    background-color: #252525;
+    padding: 5px 0px;
+  }
+  .data {
+    background-image: url(5e740f31f2354.jpg);
+    background-size: cover;
+  }
+  .data .bg-data{
+      background-color: rgba(255, 255, 255, 0.486);
+      padding: 50px 50px;
+      border-radius: 20px;
+      backdrop-filter: blur(3px);
+  }
+  /* #data-infected{
+      box-shadow: 0px 0px 40px rgba(0, 0, 255, 0.356);
+  } */
+  
+  .box:hover{
+      transform: scale(1.1);
+  }
+  
+  
